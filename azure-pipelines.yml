@@ -10,6 +10,9 @@ variables:
   buildConfiguration: "Release"
   wwwrootDir: "Tailspin.SpaceGame.Web/wwwroot"
   dotnetSdkVersion: "2.1.505"
+  SonarProjectKey: "space-game-web-msp"
+  SonarProjectName: "space-game-web-msp"
+  SonarOrganization: "tailspin-msp"
 
 steps:
   - task: DotNetCoreInstaller@0
